@@ -21,7 +21,7 @@ push: null
 # for cloning this project in remote locations
 pull:
   - prefect.projects.steps.git_clone_project:
-      repository: https://github.com/PrefectHQ/actions-prefect-deploy.git
+      repository: https://github.com/SteffRhes/prefect_exp_4.git
       branch: main
       #access_token: "{{ prefect.blocks.secret.simple-github-pat }}"
 
